@@ -1,0 +1,4 @@
+Program ok.
+negative
+still negative
+minus 5

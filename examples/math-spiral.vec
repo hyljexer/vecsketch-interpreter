@@ -1,0 +1,24 @@
+shape background = +[0,0]-[100,0]-[100,100]-[0,100]-[0,0]
+shape petal = +[-3,-14]-[3,-14]-[5,14]-[-5,14]-[-3,-14]
+shape transformed = petal
+shape orbit = +[-12,-12]-[12,-12]-[12,12]-[-12,12]-[-12,-12]
+shape orbit_transform = orbit
+
+number ii = 0
+
+draw background (18,18,38)
+
+while ii < 24 is
+  transformed := (petal / (ii * 15)) -> [50,50]
+  draw transformed (60 + ii * 8, 90 + ii * 6, 255)
+  ii := ii + 1
+endwhile
+
+ii := 1
+while ii < 7 is
+  orbit_transform := (orbit * ii) -> [50,50]
+  draw -orbit_transform (255,255,255)
+  ii := ii + 1
+endwhile
+
+pause

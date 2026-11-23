@@ -1,0 +1,2 @@
+Program ok.
+LINESTRING (0 0, 1 1)

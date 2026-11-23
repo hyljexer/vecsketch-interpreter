@@ -1,0 +1,7 @@
+Program ok.
+POINT (7 6)
+7.0
+6.0
+[<POINT (-3 -9)>, <POINT (7 6)>]
+2.0
+-1.5

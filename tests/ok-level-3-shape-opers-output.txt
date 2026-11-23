@@ -1,0 +1,3 @@
+Program ok.
+square in bbox (yes): 1
+squares are the same (no): 0

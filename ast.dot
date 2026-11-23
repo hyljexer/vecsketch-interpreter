@@ -1,0 +1,123 @@
+digraph parsetree {
+    ratio=fill
+    node [shape="box"]
+    edge [style=bold]
+    ranksep=equally
+    nodesep=0.5
+    rankdir = TB
+    clusterrank = local
+N0 [label="program"]
+N1 [label="variable_definition
+ (bbox) #1"]
+N2 [label="type
+ (shape)"]
+N1->N2 [label="type"]
+N3 [label="shape_literal
+ ()"]
+N4 [label="coordinate"]
+N5 [label="int_literal
+ (0)"]
+N4->N5 [label="x"]
+N6 [label="int_literal
+ (0)"]
+N4->N6 [label="y"]
+N3->N4 [label="coordinates[0]"]
+N7 [label="coordinate"]
+N8 [label="int_literal
+ (10)"]
+N7->N8 [label="x"]
+N9 [label="int_literal
+ (0)"]
+N7->N9 [label="y"]
+N3->N7 [label="coordinates[1]"]
+N10 [label="coordinate"]
+N11 [label="int_literal
+ (10)"]
+N10->N11 [label="x"]
+N12 [label="int_literal
+ (10)"]
+N10->N12 [label="y"]
+N3->N10 [label="coordinates[2]"]
+N13 [label="coordinate"]
+N14 [label="int_literal
+ (0)"]
+N13->N14 [label="x"]
+N15 [label="int_literal
+ (10)"]
+N13->N15 [label="y"]
+N3->N13 [label="coordinates[3]"]
+N16 [label="coordinate"]
+N17 [label="int_literal
+ (0)"]
+N16->N17 [label="x"]
+N18 [label="int_literal
+ (0)"]
+N16->N18 [label="y"]
+N3->N16 [label="coordinates[4]"]
+N1->N3 [label="expression"]
+N0->N1 [label="definitions[0]"]
+N19 [label="variable_definition
+ (line) #2"]
+N20 [label="type
+ (shape)"]
+N19->N20 [label="type"]
+N21 [label="shape_literal
+ ()"]
+N22 [label="coordinate"]
+N23 [label="int_literal
+ (3)"]
+N22->N23 [label="x"]
+N24 [label="int_literal
+ (3)"]
+N22->N24 [label="y"]
+N21->N22 [label="coordinates[0]"]
+N25 [label="coordinate"]
+N26 [label="int_literal
+ (7)"]
+N25->N26 [label="x"]
+N27 [label="int_literal
+ (8)"]
+N25->N27 [label="y"]
+N21->N25 [label="coordinates[1]"]
+N19->N21 [label="expression"]
+N0->N19 [label="definitions[1]"]
+N28 [label="draw
+ #4"]
+N29 [label="identifier
+ (bbox) #4"]
+N28->N29 [label="shape"]
+N30 [shape="ellipse", label="NONE"]
+N28->N30 [label="color"]
+N0->N28 [label="statements[0]"]
+N31 [label="draw
+ #5"]
+N32 [label="identifier
+ (line) #5"]
+N31->N32 [label="shape"]
+N33 [label="rgb"]
+N34 [label="int_literal
+ (255)"]
+N33->N34 [label="r"]
+N35 [label="int_literal
+ (0)"]
+N33->N35 [label="g"]
+N36 [label="int_literal
+ (0)"]
+N33->N36 [label="b"]
+N31->N33 [label="color"]
+N0->N31 [label="statements[1]"]
+N37 [label="statement
+ (pause) #6"]
+N0->N37 [label="statements[2]"]
+N38 [label="statement
+ (clear) #7"]
+N0->N38 [label="statements[3]"]
+N39 [label="draw
+ #8"]
+N40 [label="identifier
+ (line) #8"]
+N39->N40 [label="shape"]
+N41 [shape="ellipse", label="NONE"]
+N39->N41 [label="color"]
+N0->N39 [label="statements[4]"]
+}

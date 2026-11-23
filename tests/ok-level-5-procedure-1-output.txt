@@ -1,0 +1,3 @@
+Program ok.
+num 9
+ab 10 rum 21

@@ -1,0 +1,17 @@
+Program ok.
+2
+4
+8
+16
+32
+64
+128
+4 inner
+4 middle
+5 middle
+6 middle
+7 middle
+8 middle
+9 middle
+10 outer
+20 out

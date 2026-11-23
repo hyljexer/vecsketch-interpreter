@@ -1,0 +1,3 @@
+Program ok.
+int 3
+kuvio LINESTRING (3 4, 12 4, -3 45, 33 23534)

@@ -1,0 +1,19 @@
+/%
+  A simple mathematical drawing:
+  nested squares with increasing size.
+%/
+
+shape background = +[0,0]-[100,0]-[100,100]-[0,100]-[0,0]
+shape square = [0,0]
+number ii = 1
+
+draw background (8,16,38)
+
+while ii < 10 is
+  square := +[-ii * 5,-ii * 5]-[ii * 5,-ii * 5]-[ii * 5,ii * 5]-[-ii * 5,ii * 5]-[-ii * 5,-ii * 5]
+  square := square -> [50,50]
+  draw -square (40 + ii * 20,100 + ii * 10,220)
+  ii := ii + 1
+endwhile
+
+pause
